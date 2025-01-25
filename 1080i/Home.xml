@@ -20,12 +20,12 @@
     <controls>
         <control type="button" id="6000">
             <description>Weather Jump</description>
-            <include>Defs_Hidden_Button</include>
+            <!--<include>Defs_Hidden_Button</include>
             <onup>301</onup>
             <ondown>301</ondown>
             <onleft>301</onleft>
             <onright>301</onright>
-            <onback>301</onback>
+            <onback>301</onback>-->
             <onclick>ActivateWindow(Weather)</onclick>
         </control>
         <control type="list" id="9989">
