@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="0">
-    <defaultcontrol always="false">301</defaultcontrol>
+    <defaultcontrol always="true">13101</defaultcontrol>
 
     <onload condition="String.IsEmpty(Window(Home).Property(SkinSplashStarted))">AlarmClock(refocus,SetFocus(301),00:01,silent,false)</onload>
     <onload condition="String.IsEmpty(Window(Home).Property(SkinSplashStarted))">AlarmClock(SkinSplashStarted,SetProperty(SkinSplashStarted,1,home),00:01,silent,false)</onload>
