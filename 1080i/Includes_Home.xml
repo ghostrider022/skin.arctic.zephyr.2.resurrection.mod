@@ -533,7 +533,7 @@
                 </control>
             </control>
 
-            <control type="panel" id="301">
+         <!--   <control type="panel" id="301">
                 <visible allowhiddenfocus="true">![Control.HasFocus(302) | Control.HasFocus(3002)]</visible>
                 <include>Animation_Left</include>
                 <include>Defs_InfoDialog_Visible</include>
@@ -547,7 +547,7 @@
                 <onleft condition="!Skin.HasSetting(SubmenuOnly) + Integer.IsGreater(Container(302).NumItems,0)">ActivateWindow(1135)</onleft>
                 <onleft condition="Skin.HasSetting(SubmenuOnly) + Integer.IsGreater(Container(302).NumItems,0)">SetFocus(302,0)</onleft>
                 <!-- <animation effect="fade" start="100" end="0" time="200" condition="ControlGroup(3000).HasFocus() | Control.HasFocus(5000) | Control.HasFocus(5100) | Control.HasFocus(6000)">Conditional</animation> -->
-                <onright condition="!String.IsEqual(Container(9989).ListItem.Property(list),Settings) + !String.IsEqual(Container(9989).ListItem.Property(list),Weather)">3000</onright>
+             <!--   <onright condition="!String.IsEqual(Container(9989).ListItem.Property(list),Settings) + !String.IsEqual(Container(9989).ListItem.Property(list),Weather)">3000</onright>
                 <onright condition="String.IsEqual(Container(9989).ListItem.Property(list),Settings)">5000</onright>
                 <onright condition="String.IsEqual(Container(9989).ListItem.Property(list),Weather)">6000</onright>
                 <top>293</top>
@@ -639,7 +639,7 @@
                 <content>
                     <include>skinshortcuts-mainmenu</include>
                 </content>
-            </control>
+            </control>-->
 
             <control type="group" id="300">
                 <width>257.14</width>
