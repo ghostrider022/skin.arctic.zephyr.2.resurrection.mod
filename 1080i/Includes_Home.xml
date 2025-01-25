@@ -450,7 +450,7 @@
                 <visible>!Window.IsVisible(DialogVideoInfo.xml)</visible>
                 <include content="Flix_View_52_Showcase_Aura_Info">
                     <param name="font" value="font_title" />
-                    <param name="plotheight" value="160" />
+                    <param name="plotheight" value="300" /> <!--160-->
                     <param name="titleheight" value="60" />
                 </include>
             </control>
