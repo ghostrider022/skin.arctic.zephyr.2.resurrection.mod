@@ -404,8 +404,8 @@
                                 <visible>!String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),Settings) + !String.IsEqual(Container(9989).ListItemAbsolute(0).Property(list),Weather)</visible>
                                 <top>20</top>
                               <!--  <onup>301</onup>
-                                <ondown>301</ondown>
-                                <onleft>301</onleft>-->
+                                <ondown>301</ondown>-->
+                                <onleft>13101</onleft>
                                 <scrolltime tween="quadratic">600</scrolltime>
                                 <height>99999</height>
                                 <width>1920</width>
